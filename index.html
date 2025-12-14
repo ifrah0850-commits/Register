@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Bootcamp Registration</title>
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <strong>Web Design Bootcamp Registration</strong><br><br>
+            <h2>Welcome, please register</h2>
+
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Workshop Details</legend>
+
+            <h2>Experience Level</h2>
+            <input type="radio" id="beginner" name="experience" value="beginner">
+            <label for="beginner">Beginner</label><br>
+
+            <input type="radio" id="intermediate" name="experience" value="intermediate">
+            <label for="intermediate">Intermediate</label><br>
+
+            <input type="radio" id="advanced" name="experience" value="advanced">
+            <label for="advanced">Advanced</label><br><br>
+
+            <label>Topics you are interested in:</label><br>
+            <input type="checkbox" id="html" name="topics" value="html">
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox" id="css" name="topics" value="css">
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox" id="js" name="topics" value="js">
+            <label for="js">JS</label><br>
+
+            <input type="checkbox" id="bootstrap" name="topics" value="bootstrap">
+            <label for="bootstrap">Bootstrap</label><br><br>
+
+            <label for="source">How did you hear about us?</label><br>
+            <select id="source" name="source">
+                <option value="friends">Friends</option>
+                <option value="social-media">Social Media</option>
+            </select><br><br>
+
+            <label for="startdate">Preferred start date:</label><br>
+            <input type="date" id="startdate" name="startdate"><br><br>
+
+            <label for="comments">Comments or questions:</label><br>
+            <textarea id="comments" name="comments"></textarea>
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Registration</button>
+        <button type="reset">Clear Form</button>
+    </form>
+
+</body>
+</html>
